@@ -1,0 +1,44 @@
+{
+
+    "globals": {
+        "PWA": true
+    },
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module"
+    },    
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [ "error", 4 ],
+        "curly": [ "error", "all" ],
+        //"linebreak-style": [ "error", "windows" ],
+        "quotes": [ "error", "single" ],
+        "semi": [ "error", "always" ],
+        "eqeqeq": [ "error", "always" ],
+        "no-alert": [ "error" ],
+        "no-console": [ "off" ],
+        "no-else-return": [ "off" ],
+        "no-eval": [ "error" ],
+        "no-invalid-this": [ "error" ],
+        "no-magic-numbers": [ "off" ],
+        "no-multi-spaces": [ "error" ],
+        "no-sequences": [ "error" ],
+        "no-throw-literal": [ "error" ],
+        "no-unused-expressions": [ "error" ],
+        "no-with": [ "error" ],
+        "no-unused-vars": [
+			"warn", {
+				"vars": "all", 
+				"args": "none", 
+				"ignoreRestSiblings": false 
+			}
+		],
+        // ES6 rules
+        "no-var": [ "error" ],
+        "prefer-template": [ "off" ],
+        "object-shorthand": [ "error", "always" ]		
+    }
+}

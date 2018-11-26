@@ -1,0 +1,16 @@
+person-item {
+	margin: 2px;
+}
+
+person-item .name {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+person-item .email {
+	display: block;
+}
+
+.ad2hs-prompt {
+	display: none;
+}
